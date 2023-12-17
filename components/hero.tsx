@@ -1,6 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -40,7 +41,7 @@ export default function Hero() {
             </div>
           </div>
           <div className="relative">
-            <img
+            <Image
               alt="Student"
               className="h-[400px] w-[400px] rounded-full"
               height="400"

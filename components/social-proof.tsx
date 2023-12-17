@@ -3,6 +3,7 @@
  * @see https://v0.dev/t/8n1UQPTwXa7
  */
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 export default function SocailProof() {
   return (
@@ -17,70 +18,70 @@ export default function SocailProof() {
           </p>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-5 2xl:grid-cols-7 items-center gap-x-24 justify-between">
-          <img
+          <Image
             alt="Company Logo 1"
             className="overflow-hidden rounded-lg object-contain object-center"
             height="70"
             src="/images/svg/google.svg"
             width="140"
           />
-          <img
+          <Image
             alt="Company Logo 2"
             className="overflow-hidden rounded-lg object-contain object-center"
             height="70"
             src="/images/svg/microsoft.svg"
             width="140"
           />
-          <img
+          <Image
             alt="Company Logo 3"
             className="overflow-hidden rounded-lg object-contain object-center"
             height="70"
             src="/images/svg/amazon.svg"
             width="140"
           />
-          <img
+          <Image
             alt="Company Logo 4"
             className="overflow-hidden rounded-lg object-contain object-center"
             height="70"
             src="/images/svg/youtube.svg"
             width="140"
           />
-          <img
+          <Image
             alt="Company Logo 5"
             className="overflow-hidden rounded-lg object-contain object-center"
             height="70"
             src="/images/svg/linkedin.svg"
             width="140"
           />
-          <img
+          <Image
             alt="Company Logo 6"
             className="overflow-hidden rounded-lg object-contain object-center"
             height="70"
             src="/images/svg/whatsapp.svg"
             width="140"
           />{" "}
-          <img
+          <Image
             alt="Company Logo 7"
             className="overflow-hidden rounded-lg object-contain object-center"
             height="70"
             src="/images/svg/mongodb.svg"
             width="140"
           />{" "}
-          <img
+          <Image
             alt="Company Logo 8"
             className="overflow-hidden rounded-lg object-contain object-center"
             height="70"
             src="/images/svg/netflix.svg"
             width="140"
           />{" "}
-          <img
+          <Image
             alt="Company Logo 9"
             className="overflow-hidden rounded-lg object-contain object-center"
             height="70"
             src="/images/svg/paypal.svg"
             width="140"
           />
-          <img
+          <Image
             alt="Company Logo 10"
             className="overflow-hidden rounded-lg object-contain object-center"
             height="70"

@@ -1,6 +1,7 @@
 "use client";
 
 import { CoursesDetial } from "@/constant";
+import Image from "next/image";
 
 export default function Courses() {
   return (
@@ -12,7 +13,7 @@ export default function Courses() {
       <div className="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {CoursesDetial.map((course) => (
           <div className="bg-gray-100 p-4 rounded-lg" key={course.id}>
-            <img
+            <Image
               alt="Course thumbnail"
               className="w-full h-auto rounded-lg"
               height="200"
