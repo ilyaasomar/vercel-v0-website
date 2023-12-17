@@ -120,13 +120,13 @@ export default function Footer() {
             </ul>
             <div className="flex mt-4 gap-x-3">
               <div className="flex items-center justify-center w-10 h-10 bg-white rounded-full">
-                <Facebook className="h-7 w-7 fill-current text-black" />
+                <Facebook className="h-7 w-7 fill-current text-green-600" />
               </div>
               <div className="flex items-center justify-center w-10 h-10 bg-white rounded-full">
-                <Twitter className="h-7 w-7 fill-current text-black" />
+                <Twitter className="h-7 w-7 fill-current text-green-600" />
               </div>
               <div className="flex items-center justify-center w-10 h-10 bg-white rounded-full">
-                <Linkedin className="h-7 w-7 fill-current text-black" />
+                <Linkedin className="h-7 w-7 fill-current text-green-600" />
               </div>
             </div>
           </div>

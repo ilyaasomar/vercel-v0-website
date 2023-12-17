@@ -5,8 +5,10 @@ export default function Categories() {
       <h2 className="text-4xl font-bold text-green-600">
         Most Popular Categories
       </h2>
-      <p className="mt-2 text-gray-500">
-        Lorem Ipsum has been the industry's standard dummy text ever
+      <p className="mt-2 text-gray-500 max-w-2xl">
+        Explore the future with our top category, Master innovation, coding,
+        analytics, and strategies. Elevate your skills with cutting-edge courses
+        for success!
       </p>
       <div className="mt-6 grid grid-cols-4 gap-4">
         <div className="flex items-center space-x-2 rounded-lg border border-green-300 bg-green-50 p-4">

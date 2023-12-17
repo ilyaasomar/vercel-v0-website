@@ -7,7 +7,7 @@ export default function Services() {
           <h2 className="text-4xl font-bold text-gray-800 mb-4">
             Benefits You get When Using our Services
           </h2>
-          <p className="text-gray-500">
+          <p className="text-gray-500 max-w-2xl mx-auto">
             Experience the transformative benefits of our services. With
             personalized instruction from our expert tutors, you'll gain the
             confidence and skills needed to excel.

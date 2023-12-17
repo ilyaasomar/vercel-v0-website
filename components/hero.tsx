@@ -23,7 +23,10 @@ export default function Hero() {
               <br />& Institutions
             </h1>
             <p className="text-gray-600 max-w-md">
-              Lorem Ipsum has been the industry's standard dummy text ever
+              Unlock a world of knowledge with access to 200+ courses from 20
+              expert instructors and institutions. Dive into diverse learning
+              experiences and elevate your skills on our dynamic e-learning
+              platform
             </p>
             <div className="relative">
               <input
